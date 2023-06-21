@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <a href="#" class="navbar-brand">
+        <img src="./photos/travel-icon.png" alt="website-logo" width="70" height="70" />
+        Travel Blog
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="gallery.html" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="modal fade" id="exampleModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+  
+          <div class="modal-header">
+            <h5 class="modal-title">Logout</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+  
+          <div class="modal-body">
+            Are you sure you want to logout?
+          </div>
+  
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success">Yes</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container-fluid bg-light">
+    <p class="display-5 text-center text-uppercase">Hiking Experiences:</p>
+    <div id="carouselExampleControls" class="carousel slide container d-flex flex-column align-items-center" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./gallery/a.webp" class="d-block w-100 w-md-6 w-lg-4" alt="hiking-1">
+        </div>
+        <div class="carousel-item">
+          <img src="./gallery/b.webp" class="d-block w-100 w-md-6 w-lg-4" alt="hiking-2">
+        </div>
+        <div class="carousel-item">
+          <img src="./gallery/c.webp" class="d-block w-100 w-md-6 w-lg-4" alt="hiking-3">
+        </div>
+        <div class="carousel-item">
+          <img src="./gallery/d.webp" class="d-block w-100 w-md-6 w-lg-4" alt="hiking-4">
+        </div>
+        <div class="carousel-item">
+          <img src="./gallery/e.jpg" class="d-block w-100 w-md-6 w-lg-4" alt="hiking-5">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <br/>
+    <hr/>
+    <p class="display-5 text-center text-uppercase">Island Hopping Experiences:</p>
+    <div id="carouselExampleControls1" class="carousel slide container d-flex flex-column align-items-center" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./gallery/1.webp" class="d-block w-100 w-md-6 w-lg-4" alt="island-hopping-1">
+        </div>
+        <div class="carousel-item">
+          <img src="./gallery/2.webp" class="d-block w-100 w-md-6 w-lg-4" alt="island-hopping-2">
+        </div>
+        <div class="carousel-item">
+          <img src="./gallery/3.webp" class="d-block w-100 w-md-6 w-lg-4" alt="island-hopping-3">
+        </div>
+        <div class="carousel-item">
+          <img src="./gallery/4.webp" class="d-block w-100 w-md-6 w-lg-4" alt="island-hopping-4">
+        </div>
+        <div class="carousel-item">
+          <img src="./gallery/5.jpg" class="d-block w-100 w-md-6 w-lg-4" alt="island-hopping-5">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <br/>
+    <hr/>
+    <p class="display-5 text-center text-uppercase">City Tour Experiences:</p>
+    <div id="carouselExampleControls2" class="carousel slide container d-flex flex-column align-items-center" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./gallery/9.jpg" class="d-block w-100 w-md-6 w-lg-4" alt="city-tour-1">
+        </div>
+        <div class="carousel-item">
+          <img src="./gallery/10.jpg" class="d-block w-100 w-md-6 w-lg-4" alt="city-tour-2">
+        </div>
+        <div class="carousel-item">
+          <img src="./gallery/11.jpg" class="d-block w-100 w-md-6 w-lg-4" alt="city-tour-3">
+        </div>
+        <div class="carousel-item">
+          <img src="./gallery/12.jpg" class="d-block w-100 w-md-6 w-lg-4" alt="city-tour-4">
+        </div>
+        <div class="carousel-item">
+          <img src="./gallery/13.jpg" class="d-block w-100 w-md-6 w-lg-4" alt="city-tour-5">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <br/>
+    <br/>
+    <br/>
+    <hr/>
+  </main>
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4 bg-light"><b>Contact Details</b></div>
+        <div class="col-4 bg-light"></div>
+        <div class="col-4 bg-light text-end"><b>Social Media</b></div>
+        <div class="col-12 col-md-6 col-lg-4 bg-light"><b>Address:</b> Taguig City, Philippines</div>
+        <div class="col-12 col-md-6 col-lg-4 bg-light"></div>
+        <div class="col-12 col-md-6 col-lg-4 bg-light text-end"><a href="https://www.facebook.com" target="_blank"><img src="./photos/facebook.png" alt="facebook" width="30px"/></a><a href="https://www.instagram.com" target="_blank"><img src="./photos/instagram.png" alt="instagram" width="30px"/></a></div>
+        <div class="col-12 col-md-6 col-lg-4 bg-light"><b>Email:</b> <a href="#">hello@example.com</a></div>
+      </div>
+    </div>
+  
+      <hr/>
+      <p class="d-flex flex-column align-items-center">Copyright &copy; 2023 Travel Blog | All Rights Reserved.</p>
+  </footer> 
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
